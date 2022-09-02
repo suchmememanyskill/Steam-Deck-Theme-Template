@@ -1,0 +1,14 @@
+{
+    "name": "Sample Background Theme",
+    "version": "v1.0",
+    "author": "SuchMeme",
+    "target": "Background",
+    "manifest_version": 3,
+    "inject": {
+        "shared.css": ["SP"]
+    },
+    "dependencies": {
+        "Static Background": {}
+    },
+    "description": "Modifies Static Background to display a new background from an image stored locally"
+}
