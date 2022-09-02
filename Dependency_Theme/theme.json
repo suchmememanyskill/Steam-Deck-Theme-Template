@@ -1,0 +1,15 @@
+{
+    "name": "Sample Dependency Theme",
+    "author": "SuchMeme",
+    "manifest_version": 3,
+    "target": "Other",
+    "description": "This is a sample theme that enables switch like home and modifies it (Brings back recent games text)",
+    "inject": {
+        "shared.css": ["SP"]
+    },
+    "dependencies": {
+        "Switch Like Home": {
+            "No Friends": "Yes"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Sample Color Picker Theme",
+    "author": "SuchMeme",
+    "manifest_version": 3,
+    "target": "Other",
+    "description": "This is a sample theme that turns the QAM any color trough the color picker",
+    "patches": {
+        "Enable": {
+            "type": "none",
+            "values": {
+                "_": {
+                    "shared.css": ["QuickAccess"]
+                }
+            },
+            "components": [
+                {
+                    "name": "Background Picker",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#000",
+                    "css_variable": "test-main-color",
+                    "tabs": ["QuickAccess"]
+                }
+            ]
+        }
+    }
+}

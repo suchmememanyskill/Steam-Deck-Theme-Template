@@ -1,0 +1,1 @@
+This is a sample theme that enables switch like home and modifies it (Brings back recent games text)

@@ -1,0 +1,51 @@
+{
+    "name": "Sample Advanced Theme",
+    "author": "SuchMeme",
+    "manifest_version": 3,
+    "target": "Other",
+    "description": "This is a sample theme that turns the QAM black, red, blue or green. Also shows off patching capabilities",
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    },
+    "patches": {
+        "Dropdown": {
+            "type": "dropdown",
+            "values": {
+                "None": {},
+                "Red": {
+                    "red.css": ["QuickAccess"]
+                },
+                "Blue": {
+                    "blue.css": ["QuickAccess"]
+                },
+                "Green": {
+                    "green.css": ["QuickAccess"]
+                }
+            }
+        },
+        "Slider": {
+            "type": "slider",
+            "values": {
+                "None": {},
+                "Red": {
+                    "red.css": ["QuickAccess"]
+                },
+                "Blue": {
+                    "blue.css": ["QuickAccess"]
+                },
+                "Green": {
+                    "green.css": ["QuickAccess"]
+                }
+            }
+        },
+        "Checkbox": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "red.css": ["QuickAccess"]
+                }
+            }
+        }
+    }
+}

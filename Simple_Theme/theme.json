@@ -1,0 +1,10 @@
+{
+    "name": "Sample Simple Theme",
+    "author": "SuchMeme",
+    "manifest_version": 3,
+    "target": "Other",
+    "description": "This is a sample theme that turns the QAM black",
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    }
+}
